@@ -1,0 +1,39 @@
+.magic-overlay {
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #e86759;
+    z-index: 99000;
+}
+.magic-overlay .close-button {
+    padding: 20px;
+    display: block;
+    text-align: right;
+}
+.magic-overlay .loading-container {
+    text-align: center;
+    padding-top: 100px;
+    color: #f9f2d1;
+    font-size: 100px;
+}
+.animate-loader-icon {
+    display: inline-block;
+    -animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+@keyframes spin {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+.magic-overlay .content {
+    overflow-y: auto;
+    max-height: 100%;
+    color: #f9f2d1;
+    padding: 0 100px 0 100px;
+}
