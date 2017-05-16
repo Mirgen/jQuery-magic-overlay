@@ -4,7 +4,7 @@
         var settings = $.extend({
             overlayClass: 'magic-overlay',
             closeButtonClass: 'close-button',
-            closeButtonContent: '<span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Close',
+            closeButtonContent: 'Close',
             contentClass: 'content',
             loadingContainerClass: 'loading-container',
             loadingContainerContent: '<span class="animate-loader-icon">+</span>',
